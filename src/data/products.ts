@@ -1,0 +1,83 @@
+import type { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Szpachelka Do Fug',
+    price: 35,
+    category: 'narzędzia',
+    description: 'Profesjonalna szpachelka do fugowania, idealna do prac wykończeniowych.',
+    image: 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600',
+    stock: 25,
+  },
+  {
+    id: '2',
+    name: 'Mieszadło Do Betonu',
+    price: 120,
+    category: 'narzędzia',
+    description: 'Wytrzymałe mieszadło do betonu, kompaktowe i mobilne.',
+    image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=600',
+    stock: 8,
+  },
+  {
+    id: '3',
+    name: 'Gładka Kielnia Betoniarska',
+    price: 85,
+    category: 'narzędzia',
+    description: 'Stalowa kielnia do gładzenia powierzchni betonowych.',
+    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600',
+    stock: 15,
+  },
+  {
+    id: '4',
+    name: 'Wykończenie Betonowe Woskowane',
+    price: 55,
+    category: 'materiały',
+    description: 'Wosk do wykończenia powierzchni betonowych, naturalny połysk.',
+    image: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=600',
+    stock: 30,
+  },
+  {
+    id: '5',
+    name: 'Cement Portlandzki 25kg',
+    price: 28,
+    category: 'materiały',
+    description: 'Wysokiej jakości cement portlandzki, klasa 32,5R.',
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600',
+    stock: 100,
+  },
+  {
+    id: '6',
+    name: 'Forma Silikonowa Do Betonu',
+    price: 75,
+    category: 'akcesoria',
+    description: 'Elastyczna forma silikonowa do odlewów betonowych.',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600',
+    stock: 12,
+  },
+  {
+    id: '7',
+    name: 'Pigment Betonowy Czarny 1kg',
+    price: 45,
+    category: 'materiały',
+    description: 'Naturalny pigment do barwienia betonu, kolor czarny.',
+    image: 'https://images.unsplash.com/photo-1620207418302-439b387441b0?w=600',
+    stock: 40,
+  },
+  {
+    id: '8',
+    name: 'Poziomica Laserowa',
+    price: 280,
+    category: 'narzędzia',
+    description: 'Profesjonalna poziomica laserowa z gwarancją 2 lata.',
+    image: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=600',
+    stock: 5,
+  },
+];
+
+export const categories = [
+  { id: 'all', name: 'Wszystkie' },
+  { id: 'narzędzia', name: 'Narzędzia' },
+  { id: 'materiały', name: 'Materiały' },
+  { id: 'akcesoria', name: 'Akcesoria' },
+];
